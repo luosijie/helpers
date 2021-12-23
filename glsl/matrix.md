@@ -15,8 +15,8 @@
 ```glsl
     mat2 scale2d (vec2 scale) {
         return mat2(
-            scale.x,0.0,
-            0.0,scale.y
+            scale.x, 0.0,
+            0.0,     scale.y
         );
     }
 ```
